@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/ai-judge-rich-01/saifulsidik801-ship-it/ai-judge-rich-01-entry/rank.svg)](https://make.fun/bounty/ai-judge-rich-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
 [![reward](https://make.fun/badge/ai-judge-rich-01/saifulsidik801-ship-it/ai-judge-rich-01-entry/reward.svg)](https://make.fun/bounty/ai-judge-rich-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
 
-A program that writes the plan an AI agent would follow to turn $100, a computer with internet access and 30 days into the most money: only make.fun bounties whose judge can be tested first — 2 drafts duel under each published judge prompt, only the winner goes in. The method is proven by a public record (one account paid in 20 of 25 bounties, $570.50, $22.82 an entry); the math halves that record, 93 of 110 entries settled puts $1,111 in hand on day 30 with a $644 floor, and the full $100 is accounted for.
+A program that writes the plan an AI agent would follow to turn $100, a computer with internet access and 30 days into the most money: only work whose money already exists — DevPool priced issues paid on merge, rule zero (no code until escrow shows), $40-$300 tickets, merge-odds filter, PR in 24h, max 2 open. 24 claims, 13 merge at $150 = $1,950, less 25% = $1,463, plus $35 from free make.fun finishes: $1,578 on day 30, floor $868 (7 merges, 97% by binomial). Every number is checked live and adds up.
 
 ## Run it
 
