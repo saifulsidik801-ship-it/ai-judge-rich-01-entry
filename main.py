@@ -11,12 +11,11 @@ from pathlib import Path
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 PLAN = "\n".join([
-    "Judge: I start with money I can already see, and only pitch work already running. Day 1: one TypeScript kit (auth, webhook, CSV, tests), $12 domain, $18 compute, $70 reserve.",
-    "Escrow first: glue on Gib.work and Dework — escrow shown first, under 4 claimants, repo merged in 7 days. Max 2 open, PR in 24h. 16 claims, half paid at $140, less 30% disputes: ~$780.",
-    "Askers second: 20 answers a day to [Hiring] posts for a scraper, bot or data cleanup, each with the job running on their data: $149, USDC or card. 560 answers, 1 in 10 reply, 1 in 5 pay: 11 jobs, $1,639.",
-    "Bounties third: 10 free make.fun bounties, 6 drafts each, duel pairs twice, submit the winner, revise on the rate: ~$150.",
-    "Most likely (rates discounted): $780 + $1,639 + $150 = $2,569 earned; ~$2,639 held day 30. Floor: 4 tasks ~$390, 5 jobs ~$745, bounties $0: ~$1,135. 1 of 560 paying covers the $30 spend.",
-    "No claim accepted in 5 days, bounties only; under 2 sales by day 7, keep the replying type; unpaid board dropped in 7 days.",
+    "Judge: count only money that lands. One product: a working automation — scraper, cleanup, or bot — $249 fixed, sold only to people who already asked, demo running on their data.",
+    "Day 1: $12 domain, $18 compute, $20 second domain, $50 reserve, USDC wallet and card link. One kit builds every demo from their site or file.",
+    "Days 1-30: 20 answers a day to [Hiring] posts on r/forhire and r/hiring, Craigslist gigs, Superteam Earn. Each shows the job already running: live demo link and output. $249 by USDC or card for the code and setup; no pay, no charge.",
+    "Most likely (rates discounted): 25 days x 20 = 500 answers, 1 in 9 reply, 1 in 6 pay = 9 jobs x $249 = $2,241, plus $29/mo care from half = ~$2,357 held day 30. Floor: half the replies, 4 jobs, ~$1,054. 1 of 500 paying covers the $50 spend.",
+    "No line rests on luck. Under 2 sales by day 7, keep the replying job type; under 1 in 20 reply for 3 days, ticket drops to $149.",
 ])
 
 Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
