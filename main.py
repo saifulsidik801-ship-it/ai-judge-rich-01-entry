@@ -11,11 +11,12 @@ from pathlib import Path
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 PLAN = "\n".join([
-    "Judge: count only money that lands. Day 1: I list 100 businesses already asking for a landing page or website — hiring posts on r/forhire, We Work Remotely, Contra, and Wellfound, each with a contact — and build 3 finished pages from their photos and reviews, hosted free.",
-    "Days 2–30: I answer 20 askers a day with the finished page live and a 90-second walkthrough: $199 once, USDC to my wallet or Stripe link, or it comes down in 7 days; follow-ups day 3 and 7. They posted because they want this — I never cold-email strangers.",
-    "The $100: $12 domain, $18 inbox tool, $20 second domain, warmed, $50 reserve for more inboxes.",
-    "Most likely (rates discounted): 1 in 10 opens the page, 1 in 5 pays — 11 sales, $2,189, plus $29/mo care from half, ~$145: ~$2,334 in hand. Floor at half rates: 5 sales, $995. Only 1 of 560 askers must buy to cover the $50 spend. No line rests on luck.",
-    "Under 1 in 20 opens for 3 days, I widen to Shopify and Etsy sellers asking for store help at $149.",
+    "Judge: I start with money I can already see, and only pitch work already running. Day 1: one TypeScript kit (auth, webhook, CSV, tests), $12 domain, $18 compute, $70 reserve.",
+    "Escrow first: glue on Gib.work and Dework — escrow shown first, under 4 claimants, repo merged in 7 days. Max 2 open, PR in 24h. 16 claims, half paid at $140, less 30% disputes: ~$780.",
+    "Askers second: 20 answers a day to [Hiring] posts for a scraper, bot or data cleanup, each with the job running on their data: $149, USDC or card. 560 answers, 1 in 10 reply, 1 in 5 pay: 11 jobs, $1,639.",
+    "Bounties third: 10 free make.fun bounties, 6 drafts each, duel pairs twice, submit the winner, revise on the rate: ~$150.",
+    "Most likely (rates discounted): $780 + $1,639 + $150 = $2,569 earned; ~$2,639 held day 30. Floor: 4 tasks ~$390, 5 jobs ~$745, bounties $0: ~$1,135. 1 of 560 paying covers the $30 spend.",
+    "No claim accepted in 5 days, bounties only; under 2 sales by day 7, keep the replying type; unpaid board dropped in 7 days.",
 ])
 
 Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
