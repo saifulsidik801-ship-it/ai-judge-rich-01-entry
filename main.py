@@ -11,11 +11,11 @@ from pathlib import Path
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 PLAN = "\n".join([
-    "Day 1: I pick one niche that bleeds money on missed calls — US dental clinics — and build one AI text-back: a missed call gets an instant SMS offering to book, built with Twilio and a booking page, tested on my own number.",
-    "Days 2–4: I list 300 clinics from Google Maps in three cities and email each owner a 20-second clip of the system answering a missed call. Price: $249 setup, $49 a month, first month free. One recovered patient is worth more than the $249, so the buyer says yes fast.",
-    "Days 5–30: I install it for every buyer in under a day using the same setup, same script, same page — no custom builds. One install is 2 hours of my time.",
-    "Spend: $30 Twilio number and credits, $12 domain and hosting, $58 kept as reserve. If no buyer by day 10, I switch the same system to plumbers and HVAC.",
-    "Most likely: 2–3 clinics pay setup in 30 days, $500–750 in hand, plus $49 a month each after.",
+    "Day 1: I pick the niche that loses the most on a missed call — US med spas — and build one AI text-back: a missed call gets an instant SMS offering to book, built with Twilio and a booking page, tested on my own number.",
+    "Days 2–4: I list 250 med spas from Google Maps and email each owner a 20-second clip of it answering a missed call. Offer: free 7-day install, pay $499 only after it books 3 appointments, then $99 a month. One booked treatment beats the $499, so the owner says yes fast.",
+    "Days 5–30: I install it for every taker in under a day, same setup, same script, same page — no custom builds. One install is 2 hours.",
+    "Spend: $30 Twilio number and credits, $12 domain and hosting, $58 reserve. If no taker by day 10, I switch the same system to dental clinics at the same price.",
+    "Most likely: 2 owners pay after the trial in 30 days, $998 in hand, plus $99 a month each after.",
 ])
 
 Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
