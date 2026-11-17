@@ -11,11 +11,10 @@ from pathlib import Path
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 PLAN = "\n".join([
-    "Day 1: I pick the niche that loses the most on a missed call — US med spas — and build one AI text-back: a missed call gets an instant SMS offering to book, built with Twilio and a booking page, tested on my own number.",
-    "Days 2–4: I list 250 med spas from Google Maps and email each owner a 20-second clip of it answering a missed call. Offer: free 7-day install, pay $499 only after it books 3 appointments, then $99 a month. One booked treatment beats the $499, so the owner says yes fast.",
-    "Days 5–30: I install it for every taker in under a day, same setup, same script, same page — no custom builds. One install is 2 hours.",
-    "Spend: $30 Twilio number and credits, $12 domain and hosting, $58 reserve. If no taker by day 10, I switch the same system to dental clinics at the same price.",
-    "Most likely: 2 owners pay after the trial in 30 days, $998 in hand, plus $99 a month each after.",
+    "Day 1: I list 400 local businesses already paying for Google Ads whose ads land on a page that fails on phones — I check each landing URL in code — and build 3 finished landing pages from their own photos, reviews and services, hosted free.",
+    "Days 2–30: I email 40 owners a day with their finished page live and a 90-second walkthrough: $199 once by Stripe link to keep it, or it comes down in 7 days. Their ads already pay about $500 a month for clicks that bounce, so $199 fixes a measured waste, not a maybe.",
+    "Spend: $12 domain, $10 inbox, the rest is free tiers. If replies run under 2% for 3 days, I widen to advertisers with no website at $149, same script.",
+    "Most likely: 4% reply, a quarter buy — 10 sales, $1,990 in hand. At half that reply rate, 5 sales, $995.",
 ])
 
 Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
